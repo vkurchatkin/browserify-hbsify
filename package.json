@@ -1,0 +1,19 @@
+{
+  "name": "browserify-hbsfy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify -t hbsfy index.js > main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^10.2.4"
+  },
+  "dependencies": {
+    "handlebars": "^1.3.0",
+    "hbsfy": "^2.2.1"
+  }
+}
